@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 1,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 2,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 3,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 4,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 5,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 6,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 7,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  },
+  {
+    "id": 8,
+    "img": "push_up.jpg",
+    "title": "Dumble",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "for_age": "20-25",
+    "time_required": 20
+  }
+]
