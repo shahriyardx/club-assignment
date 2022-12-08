@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export type Excercise = {
+export type ExcerciseType = {
   id: number
   img: string
   title: string
@@ -10,7 +10,7 @@ export type Excercise = {
 }
 
 const useExcercise = () => {
-  const [data, setData] = useState<Array<Excercise>>([])
+  const [data, setData] = useState<Array<ExcerciseType>>([])
 
   useEffect(() => {
     fetch('/excercise.json')
