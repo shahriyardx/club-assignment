@@ -1,4 +1,5 @@
 import { useState } from "react"
+import toast, { Toaster } from "react-hot-toast"
 import Excercise from "./components/Excercise"
 import Layout from "./components/Layout"
 import useExcercise, { ExcerciseType } from "./hooks/useExcercise"
@@ -20,10 +21,12 @@ const App = () => {
   const complete = () => {
     setBreakTime(0)
     setSelectedExcercises([])
+    toast.success("Activity Completed")
   }
 
   return (
     <>
+      <Toaster />
       <Layout
         complete={complete}
         location={location}
