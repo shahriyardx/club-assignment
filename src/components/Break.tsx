@@ -19,7 +19,7 @@ const Break = () => {
 
       <div className="p-5 bg-zinc-100 rounded-lg mt-5 grid grid-cols-5 gap-2">
         {[10, 20, 30, 40, 50].map((second) => (
-          <BreakButton seconds={second} />
+          <BreakButton key={second} seconds={second} />
         ))}
       </div>
     </div>
