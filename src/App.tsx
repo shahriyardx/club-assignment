@@ -17,9 +17,15 @@ const App = () => {
     setSelectedExcercises([...selectedExcercises, excercise])
   }
 
+  const complete = () => {
+    setBreakTime(0)
+    setSelectedExcercises([])
+  }
+
   return (
     <>
       <Layout
+        complete={complete}
         location={location}
         selectedExcercises={selectedExcercises}
         breakState={[breakTime, setBreakTime]}

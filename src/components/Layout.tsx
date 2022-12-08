@@ -7,10 +7,11 @@ type Props = {
   children: React.ReactNode
   breakState: [number, Dispatch<SetStateAction<number>>]
   selectedExcercises: Array<ExcerciseType>
-  location: string 
+  location: string
+  complete: () => void
 }
 
-const Layout = ({ children, breakState, selectedExcercises, location }: Props) => {
+const Layout = ({ children, breakState, selectedExcercises, location, complete }: Props) => {
   return (
     <div className="grid grid-cols-[auto,450px]">
       <div className="w-full max-w-7xl mx-auto p-20">
@@ -19,9 +20,9 @@ const Layout = ({ children, breakState, selectedExcercises, location }: Props) =
       </div>
 
       <Sidebar
+        complete={complete}
         location={location}
         selectedExcercises={selectedExcercises}
-        breakTime={breakState[0]}
         breakState={breakState}
       />
     </div>
