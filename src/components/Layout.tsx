@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 import Header from './Header'
 import Sidebar from './Sidebar'
 
 type Props = {
   children: React.ReactNode
+  breakState: [number, Dispatch<SetStateAction<number>>]
 }
 
-const Layout = ({ children}: Props) => {
+const Layout = ({ children, breakState}: Props) => {
   return (
     <div className='grid grid-cols-[auto,450px]'>
       <div className='w-full max-w-7xl mx-auto p-20'>
@@ -14,7 +15,7 @@ const Layout = ({ children}: Props) => {
         {children}
       </div>
 
-      <Sidebar />
+      <Sidebar breakState={breakState} />
     </div>
   )
 }

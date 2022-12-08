@@ -15,11 +15,9 @@ const App = () => {
     setSelectedExcercises([...selectedExcercises, excercise])
   }
 
-  console.log(selectedExcercises)
-
   return (
     <>
-      <Layout>
+      <Layout breakState={[breakTime, setBreakTime]}>
         <p className="text-lg font-semibold mt-4">Select todays excercise</p>
 
         <div className="mt-4 grid grid-cols-3 gap-10">
