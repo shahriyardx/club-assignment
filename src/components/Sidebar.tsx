@@ -9,11 +9,12 @@ type Props = {
   breakState: [number, Dispatch<SetStateAction<number>>]
   selectedExcercises: Array<ExcerciseType>
   breakTime: number
+  location: string
 }
 
-const Sidebar = ({ breakState, selectedExcercises, breakTime }: Props ) => {
+const Sidebar = ({ breakState, selectedExcercises, breakTime, location }: Props ) => {
   return <div className="min-h-screen bg-white p-10">
-    <Profile />
+    <Profile location={location} />
     <HealthInfo />
     <Break setBreak={breakState[1]} />
     <Details selectedExcercises={selectedExcercises} breakTime={breakTime} />
