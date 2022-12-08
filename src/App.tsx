@@ -1,7 +1,10 @@
 import React from 'react'
 import Layout from './components/Layout'
+import useExcercise from './hooks/useExcercise'
 
 const App = () => {
+  const excercises = useExcercise()
+
   return (
     <>
       <Layout>

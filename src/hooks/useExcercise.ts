@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export type Excercise = {
   id: number
@@ -12,9 +12,11 @@ export type Excercise = {
 const useExcercise = () => {
   const [data, setData] = useState<Array<Excercise>>([])
 
-  fetch('/excercise.json')
-    .then(response => response.json())
-    .then(data => setData(data))
+  useEffect(() => {
+    fetch('/excercise.json')
+      .then(response => response.json())
+      .then(data => setData(data))
+  }, [])
 
   return data
 }
