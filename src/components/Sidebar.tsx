@@ -1,20 +1,41 @@
-import React, { Dispatch, SetStateAction } from "react"
-import { ExcerciseType } from "../hooks/useExcercise"
+import { useState } from "react"
 import Break from "./Break"
 import Details from "./Details"
 import HealthInfo from "./HealthInfo"
 import Profile from "./Profile"
+
+import { BiX } from "react-icons/bi"
+
+import { Dispatch, SetStateAction } from "react"
+import { ExcerciseType } from "../hooks/useExcercise"
 
 type Props = {
   breakState: [number, Dispatch<SetStateAction<number>>]
   selectedExcercises: Array<ExcerciseType>
   location: string
   complete: () => void
+  open: boolean
+  close: () => void
 }
 
-const Sidebar = ({ breakState, selectedExcercises, location, complete }: Props) => {
+const Sidebar = ({
+  breakState,
+  selectedExcercises,
+  location,
+  complete,
+  open,
+  close,
+}: Props) => {
   return (
-    <div className="min-h-screen bg-white p-10">
+    <div
+      className={`h-screen bg-white p-10 fixed md:static top-0 w-full max-w-[450px] md:w-full ${
+        open ? "right-0" : "-right-[100%] md:right-0"
+      } z-50`}
+    >
+      <BiX
+        onClick={close}
+        className="absolute text-4xl text-red-500 top-3 left-3 md:hidden"
+      />
       <Profile location={location} />
       <HealthInfo />
       <Break setBreak={breakState[1]} />

@@ -35,7 +35,7 @@ const App = () => {
       >
         <p className="text-lg font-semibold mt-4">Select todays excercise</p>
 
-        <div className="mt-4 grid grid-cols-3 gap-10">
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-10">
           {excercises.map((excercise) => (
             <Excercise
               key={excercise.id}
