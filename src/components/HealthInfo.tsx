@@ -9,7 +9,7 @@ type InfoProps = {
 const Info = ({ amount, unit, specifier }: InfoProps) => {
   return (
     <div className='flex flex-col items-center'>
-      <h1 className='text-3xl font-black text-zinc-700'>{amount}<span className='text-base text-zinc-400 font-normal'>{unit}</span> </h1>
+      <h1 className='text-3xl font-bold text-zinc-700'>{amount}<span className='text-base text-zinc-400 font-normal'>{unit}</span> </h1>
       <p className='text-lg text-zinc-500'>{specifier}</p>
     </div>
   )

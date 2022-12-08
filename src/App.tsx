@@ -10,7 +10,7 @@ const App = () => {
       <Layout>
         <p className='text-lg font-semibold mt-4'>Select todays excercise</p>
 
-        <div className='mt-4 grid grid-cols-3 gap-5'>
+        <div className='mt-4 grid grid-cols-3 gap-10'>
           {excercises.map(excercise => <Excercise key={excercise.id} excercise={excercise}  />)}
         </div>
       </Layout>

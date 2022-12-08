@@ -7,8 +7,8 @@ type Props = {
 
 const Excercise = ({ excercise}: Props) => {
   return (
-    <div className='bg-white p-5 rounded-md flex flex-col gap-3'>
-      <img src={`/images/${excercise.img}`} alt={excercise.title} className="w-full aspect-[3/1] object-cover rounded-md" />
+    <div className='bg-white p-7 rounded-lg flex flex-col gap-3'>
+      <img src={`/images/${excercise.img}`} alt={excercise.title} className="w-full aspect-[3/1.3] object-cover rounded-lg" />
 
       <h2 className='text-2xl font-semibold mt-2'>{excercise.title}</h2>
 
@@ -19,7 +19,7 @@ const Excercise = ({ excercise}: Props) => {
         <p>Time Required: {excercise.time_required}s</p>
       </div>
 
-      <div>
+      <div className='mt-auto'>
         <button className='px-5 py-3 bg-indigo-500 text-lg text-white w-full text-center rounded-md hover:bg-indigo-600'>Add to list</button>
       </div>
     </div>
