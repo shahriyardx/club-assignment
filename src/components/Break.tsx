@@ -9,7 +9,7 @@ const BreakButton = ({ seconds, setBreak }: BreakProps) => {
   return (
     <button
       onClick={() => setBreak((prev) => prev + seconds)}
-      className="w-12 h-12 flex items-center justify-center bg-indigo-500 text-white rounded-full"
+      className="w-12 h-12 flex items-center justify-center bg-zinc-200 text-black hover:bg-indigo-500 hover:text-white rounded-full"
     >
       {seconds}
     </button>
