@@ -2,73 +2,73 @@
   {
     "id": 0,
     "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
-    "for_age": "20-25",
-    "time_required": 20
+    "title": "Push Up",
+    "description": "Traditional pushups are beneficial for building upper body strength. They work the triceps, pectoral muscles, and shoulders",
+    "for_age": "10-50",
+    "time_required": 30
   },
   {
     "id": 1,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
-    "for_age": "20-25",
-    "time_required": 20
+    "img": "cycling.jpg",
+    "title": "Cycling",
+    "description": "Cycling is a low impact aerobic exercise that offers a wealth of benefits. It also varies in intensity, so it’s suitable for all levels",
+    "for_age": "7-45",
+    "time_required": 60
   },
   {
     "id": 2,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
-    "for_age": "20-25",
-    "time_required": 20
+    "img": "jump_rope.jpg",
+    "title": "Jump Rope",
+    "description": "This old-school workout tool delivers a cheap, portable form of cardio and total-body strengthening.",
+    "for_age": "15-20",
+    "time_required": 40
   },
   {
     "id": 3,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
-    "for_age": "20-25",
-    "time_required": 20
+    "img": "jumping.jpg",
+    "title": "Jumping",
+    "description": "Jumping is the most easy excercise to do anywhere, it benefits out health a lot. It can help reduce fat which will improve fitness",
+    "for_age": "0-99",
+    "time_required": 25
   },
   {
     "id": 4,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
-    "for_age": "20-25",
-    "time_required": 20
+    "img": "yoga.jpg",
+    "title": "Yoga",
+    "description": "Yoga offers physical and mental health benefits for people of all ages. And, if you’re going through an illness",
+    "for_age": "10-30",
+    "time_required": 45
   },
   {
     "id": 5,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "img": "pull_up.jpg",
+    "title": "Pull Up",
+    "description": "The pullup is one of the most effective exercises for strengthening the back muscles. Pullups work the following muscles of the back",
     "for_age": "20-25",
-    "time_required": 20
+    "time_required": 29
   },
   {
     "id": 6,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "img": "running.jpg",
+    "title": "Running",
+    "description": "Running can give you a longer life, better sleep, improved immunity, mood and more—it’s even good for your knees and lower back",
     "for_age": "20-25",
-    "time_required": 20
+    "time_required": 35
   },
   {
     "id": 7,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
+    "img": "stretching.jpg",
+    "title": "Stretching",
+    "description": "There are many benefits to regular stretching. Not only can stretching help increase your flexibility, which is an important factor of fitness",
     "for_age": "20-25",
-    "time_required": 20
+    "time_required": 10
   },
   {
     "id": 8,
-    "img": "push_up.jpg",
-    "title": "Dumble",
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint",
-    "for_age": "20-25",
-    "time_required": 20
+    "img": "weight_lifting.jpg",
+    "title": "Weight Lifting",
+    "description": "Strength training can help you manage or lose weight, and it can increase your metabolism to help you burn more calories",
+    "for_age": "21-29",
+    "time_required": 25
   }
 ]
