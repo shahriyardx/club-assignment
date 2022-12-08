@@ -1,4 +1,5 @@
 import { ExcerciseType } from "../hooks/useExcercise"
+import { convertToDuration } from "../utils/time"
 
 type Props = {
   selectedExcercises: Array<ExcerciseType>
@@ -13,17 +14,18 @@ const Details = ({ selectedExcercises, breakTime }: Props) => {
       <div className="p-5 bg-zinc-100 rounded-lg mt-5 flex items-center justify-between">
         <p className="text-xl font-[500]">Excercise Time</p>
         <p className="text-lg text-zinc-500">
-          {selectedExcercises.reduce(
-            (prevVal, curVal) => prevVal + curVal.time_required,
-            0
-          )}{" "}
-          Seconds
+          {convertToDuration(
+            selectedExcercises.reduce(
+              (prevVal, curVal) => prevVal + curVal.time_required,
+              0
+            )
+          )}
         </p>
       </div>
 
       <div className="p-5 bg-zinc-100 rounded-lg mt-5 flex items-center justify-between">
         <p className="text-xl font-[500]">Break Time</p>
-        <p className="text-lg text-zinc-500">{breakTime} Seconds</p>
+        <p className="text-lg text-zinc-500">{convertToDuration(breakTime)}</p>
       </div>
     </div>
   )
