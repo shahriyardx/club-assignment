@@ -15,7 +15,7 @@
   display: none;
 }
 
-..hide-scrollbar {
+.hide-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
